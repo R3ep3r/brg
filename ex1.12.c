@@ -1,17 +1,19 @@
 #include <stdio.h>
-main()
+
+int main()
 {
 	int c;
 	printf("Introduceti cuvantul: ");
 	c = getchar();
 	printf("Cuvantul este: ");
-	while ( c != EOF ) {
-		if ( c == ' ') {
+	while (c != EOF) {
+		if (c == ' ') {
 			putchar('\n');
 		}
-		else {	
+		else {
 			putchar(c);
-		} 	
+		}
 	c = getchar();
 	}
+return 0;
 }
