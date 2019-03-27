@@ -15,7 +15,7 @@ int main(void)
 	int type;
 	double op2;
 	char s[MAXOP];
-
+	printf("What would you like to calculate, sir?\n");
 	while((type = getop(s)) != EOF)
 	{
 	switch(type)

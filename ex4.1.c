@@ -4,8 +4,8 @@ int mstrindex(char source[],char searchfor[]);
 
 int main(void)
 {
-	char line[] = "abcdedfabcde";
-	char pattern[] = "abc";
+	char line[] = "Macaraleleradinsoare";
+	char pattern[] = "din";
 
 	int found;
 
