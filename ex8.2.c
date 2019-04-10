@@ -1,7 +1,6 @@
 #include <fcntl.h>
 #include <stdarg.h>
-// The functions available from stdio.h are implemented here.
-//#include <stdio.h>
+
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/syscall.h>
